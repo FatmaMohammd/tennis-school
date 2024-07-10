@@ -1,0 +1,253 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F0EFEA;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  margin: 10px 20px;
+  background-color: #b9714a1a;
+  border-radius: 20px;
+}
+.logo{
+  text-indent: 30px;
+  width: 20%;
+  font-weight: bold;
+  font-size: 25px;
+}
+ul{
+list-style: none;
+display: flex;
+width: 50%;
+margin-top: 25px;
+}
+ul li a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+.buttons{
+  width: 30%;
+  margin-left: 80px;
+}
+
+.buttons button{
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+
+}
+.get{
+background-color: #00423D;
+color: white;
+}
+.contact{
+  background-color: #F0EFEA;
+}
+.page1{
+  margin: 30px auto;
+  background-color: #00423D;
+  padding: 20px;
+  color: white;
+  position: relative;
+  text-transform: capitalize;
+  border-radius: 30px;
+  height: 550px;
+  width: 90%;
+}
+.page1 h1{
+  text-align: center;
+  font-size: 40px;
+  word-spacing: 10pxpx;
+}
+
+.page1 button{
+  position: absolute;
+  left: 45%;
+  background-color: #F0EFEA;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page1 img{
+  position: absolute;
+  top: 300px;
+  left: 190px;
+  width: 900px;
+}
+.page2{
+  display: flex;
+  position: relative;
+}
+.artic{
+  margin-left: 40px;
+  width: 50%;
+}
+.artic .truth{
+  font-size: 50px;
+}
+.artic button{
+  border: none;
+  cursor: pointer;
+  background-color: #00423D;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 20px;
+}
+.boll{
+  background-color: #cabd7a3c;
+  border-radius: 30px;
+  position: relative; 
+  height: 120px;
+  position: relative;
+}
+article h1{
+  padding: 20px;
+  font-size: 30px;
+  
+}
+article p{
+  position: absolute;
+  top: 50px;
+  left: 20px;
+
+}
+
+.image{
+  position: absolute;
+  right: 30px;
+  top: 80px;
+}
+
+.image img{
+  border-radius: 50px;
+}
+.boll img{
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  height: 100px;
+
+}
+.sign{
+  background-color: #B9704A;
+  margin: 30px;
+  padding: 20px;
+  color: white;
+  border-radius: 50px;
+}
+
+.sign h1,p{
+  text-align: center;
+}
+.in{
+  flex-direction: column;
+  display: flex;
+  margin-top: 30px;
+}
+.name,.number{
+  width:300px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 550px;
+}
+.sign button{
+  border: none;
+  padding: 10px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 600px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.sign h1{
+  font-size: 50px;
+}
+.why{
+  display: flex;
+  margin: 30px;
+  position: relative;
+}
+.why article{
+position: absolute;
+right: 20px;
+top: 90px;
+
+}
+.why h1{
+  font-size: 60px;
+}
+.several{
+  display: flex;
+  margin: 30px;
+}
+.part1{
+  color: white;
+  background-color: #98916D;
+  padding: 20px;
+  width: 30%;
+  position: relative;
+  border-radius: 20px;
+}
+.part1 h1{
+  font-size: 40px;
+  margin-top: 10px;
+  height: 160px;
+  margin-left: 10px;
+}
+.part1 p{
+  position: absolute;
+  top: 120px;
+  text-indent: 20px;
+}
+.part2{
+  width: 30%;
+  margin-left: 30px;
+}
+.part3{
+  background-color:#00423D ;
+  padding: 20px;
+  width: 30%;
+  position: relative;
+  border-radius: 20px;
+  color: white;
+}
+.part4{
+  padding: 15px;
+  color: white;
+  background-color: #415C41;
+  display: flex;
+  width: 65%;
+  padding: 20px;
+  height: 270px;
+  border-radius: 20px;
+}
+.final{
+  display: flex;
+  position: relative;
+}
+.courts h1{
+  font-size: 40px;
+  margin-left: 10px;
+}
+.num{
+  position: absolute;
+  bottom: 80px;
+  right: 100px;
+  font-weight: bold;
+  font-size: 120px;
+}
+.artic p{
+  text-align: left;
+}
+
+
